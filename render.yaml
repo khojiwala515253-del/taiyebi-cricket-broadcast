@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: taiyebi-cricket-broadcast
+    runtime: python
+    plan: free
+    buildCommand: echo ready
+    startCommand: python taiyebi_broadcast_logo_embedded.py
